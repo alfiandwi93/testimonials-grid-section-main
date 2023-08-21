@@ -1,0 +1,143 @@
+body{
+	 overflow-x: hidden !important;
+}
+
+.box{
+	min-height: 290px;
+	width: 100%;
+	background-color: greenyellow;
+	border-radius: 10px;
+	box-shadow: 0px 0px 63px 21px rgba(0,0,0,0.1);
+}
+
+.boxl{
+	min-height: 290px;
+	width: 100%;
+	background-color: blue;
+	border-radius: 10px;
+	box-shadow: 0px 0px 63px 21px rgba(0,0,0,0.1);
+
+}
+
+.boxh{
+	height:100%;
+	width: 100%;
+	background-color: pink;
+	border-radius: 10px;
+	box-shadow: 0px 0px 63px 21px rgba(0,0,0,0.1);
+}
+
+.box p, .boxl p, .boxh p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.boxl p{
+	width: 96%;
+}
+
+.box p, .boxh p{
+	width: 90%;
+}
+
+.boxl h5, .boxh h5 {
+	width: 95%;
+  font-size: 20px;
+  font-family: Barlow Semi Condensed, sans-serif;
+  font-weight: 600;
+}
+
+.box h5 {
+	width: 90%;
+  font-size: 20px;
+  font-family: Barlow Semi Condensed, sans-serif;
+  font-weight: 600;
+}
+
+.img-s{
+	height: 30px;
+	width: 30px;
+	border: 1px solid white;
+	opacity: 0.7;
+}
+
+
+
+.profile p{
+	margin: 0px;
+	font-family: Barlow Semi Condensed, sans-serif;
+}
+
+.review p{
+	margin-bottom: 0px;
+	font-family: Barlow Semi Condensed, sans-serif;
+	opacity: 70%;
+}
+
+.putih{
+	background-color: hsl(0, 0%, 100%);
+	color: black;
+}
+
+.ungu {
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+  position: relative;
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-size: 20%; /* Mengisi seluruh area dengan gambar */
+  background-position: 78% 0px;
+  background-repeat: no-repeat;
+}
+
+.abu{
+	background-color: hsl(217, 19%, 35%);
+	color: white;
+}
+
+.hitam{
+	background-color: hsl(219, 29%, 14%);
+	color: white;
+}
+
+ @media (max-width: 768px) {
+
+body{
+	padding: 5px;
+}
+
+  .boxl p{
+	width: 95%;
+	font-size: 15px;
+}
+
+.box p{
+	width: 95%;
+	font-size: 15px;
+}
+
+ .boxh p{
+ 	width: 98%;
+	font-size: 15px;
+ }
+
+ .boxh h5 {
+	width: 100%;
+	font-size: 22px;
+}
+
+.box h5{
+	width: 88%;
+	font-size: 22px;
+}
+
+.boxl h5{
+	width: 95%;
+	font-size: 22px;
+}
+
+.ungu {
+  background-size: 30%; /* Mengisi seluruh area dengan gambar */
+  background-position: 78% 0px;
+  background-repeat: no-repeat;
+}
+    }
